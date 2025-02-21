@@ -1,4 +1,4 @@
-package com.example.oderdragone;
+package com.example.oderdragone.Activity;
 
 import android.os.Bundle;
 
@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.example.oderdragone.R;
 
 public class create_Activity2 extends AppCompatActivity {
 

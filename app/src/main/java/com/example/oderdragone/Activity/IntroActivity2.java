@@ -1,4 +1,4 @@
-package com.example.oderdragone; // Change this to your package name
+package com.example.oderdragone.Activity; // Change this to your package name
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.oderdragone.R;
 
 public class IntroActivity2 extends AppCompatActivity {
     private EditText emailInput, passwordInput;

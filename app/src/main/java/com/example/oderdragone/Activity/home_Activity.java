@@ -1,4 +1,4 @@
-package com.example.oderdragone; // Change to your package name
+package com.example.oderdragone.Activity; // Change to your package name
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;

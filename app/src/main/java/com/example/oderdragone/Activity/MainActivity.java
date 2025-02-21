@@ -1,4 +1,4 @@
-package com.example.oderdragone;
+package com.example.oderdragone.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,8 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.example.oderdragone.R;
 
 public class MainActivity extends AppCompatActivity {
     private ConstraintLayout startBtn;
