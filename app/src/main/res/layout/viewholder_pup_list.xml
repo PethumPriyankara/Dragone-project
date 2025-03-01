@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewholder"
     android:layout_width="175dp"
     android:layout_height="240dp"
     android:layout_margin="8dp"
@@ -72,12 +73,12 @@
 
     <TextView
         android:id="@+id/titleTxt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="23dp"
+        android:layout_height="15dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:text="title"
         android:textColor="@color/black"
-        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view3" />
 

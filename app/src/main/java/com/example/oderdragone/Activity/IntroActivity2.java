@@ -38,10 +38,10 @@ public class IntroActivity2 extends AppCompatActivity {
                     Toast.makeText(IntroActivity2.this, "Login Successful", Toast.LENGTH_SHORT).show();
 
                     // Navigate to home_Activity
-                 setContentView(R.layout.activity_home);
+                 setContentView(R.layout.activity_wish2);
 
                     loginButton.setOnClickListener(view -> {
-                        Intent intent1=new Intent(IntroActivity2.this, home_Activity.class);
+                        Intent intent1=new Intent(IntroActivity2.this, wishActivity2.class);
                     });
                 } else {
                     Toast.makeText(IntroActivity2.this, "Invalid email or password", Toast.LENGTH_SHORT).show();
